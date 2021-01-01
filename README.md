@@ -1,4 +1,4 @@
-# Windows-Decrapifier
+# Windows Decrapifier
 A simple powershell script to debloat Windows.
 
 ### What this script can do :
@@ -92,9 +92,10 @@ By default this script has options enabled for a normal user.
     19. MixedReality
     20. Everything office related.
     21. Everything xbox related.
-    22. Disables all settings in Privacy Experience.
-    23. Disable Remote Assistance
-    24. Disable Remote Desktop
+    22. WindowsCamera
+18. Disables all settings in Privacy Experience.
+19. Disable Remote Assistance
+20. Disable Remote Desktop
 
 ### How to Use:
 1. Download/clone this repo.
@@ -104,7 +105,7 @@ By default this script has options enabled for a normal user.
     ```
     cd ..
     cd C:\Users\<Your windows username>\Downloads\
-    cd .\Windows-Decrapify-main\Windows-Decrapify-main\
+    cd .\Windows-Decrapifier-main\Windows-Decrapifier-main\
     ```
 4. Type the following commands :
     ```
