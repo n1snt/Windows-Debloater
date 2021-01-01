@@ -1,7 +1,7 @@
 # Windows-Decrapifier
 A simple powershell script to debloat Windows.
 
-#### What this script can do :
+### What this script can do :
 1. Enable/Disable Telemetry
 2. Enable/Disable Wi-Fi Sense
 3. Enable/Disable SmartScreen Filter
@@ -52,7 +52,7 @@ A simple powershell script to debloat Windows.
 48. Enable/Disable Privacy Settings Experience
 49. Sets Windows to Dark Mode
 
-#### Defaults:
+### Defaults:
 By default this script has options enabled for a normal user.
 1. Telemetry is disabled.
 2. Wi-Fi sense is diasabled.
@@ -96,7 +96,7 @@ By default this script has options enabled for a normal user.
     23. Disable Remote Assistance
     24. Disable Remote Desktop
 
-#### How to Use:
+### How to Use:
 1. Download/clone this repo.
 2. Right Click on start button & open Powershell(Admin)
 3. This step depends on where you have downloaded the script.
