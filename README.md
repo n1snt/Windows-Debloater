@@ -1,7 +1,7 @@
-# Windows-Decrapify
+# Windows-Decrapifier
 A simple powershell script to debloat Windows.
 
-### What this script can do :
+#### What this script can do :
 1. Enable/Disable Telemetry
 2. Enable/Disable Wi-Fi Sense
 3. Enable/Disable SmartScreen Filter
@@ -52,6 +52,69 @@ A simple powershell script to debloat Windows.
 48. Enable/Disable Privacy Settings Experience
 49. Sets Windows to Dark Mode
 
-Credit : Craft Computing.<br>
+#### Defaults:
+By default this script has options enabled for a normal user.
+1. Telemetry is disabled.
+2. Wi-Fi sense is diasabled.
+3. SmartScreen Filter is diasabled.
+4. Bing Search diabled in Start Menu.
+5. Location Tracking is diasabled.
+6. Feedback is diasabled.
+7. Advertising ID is diasabled.
+8. Cortana is diasabled.
+9. Restricted Windows Update P2P only to local network.
+10. Removed AutoLogger file and restrict directory.
+11. Stopped and disabled Diagnostics Tracking Service.
+12. Disabled Windows Update automatic restart.
+13. Stoped and disabled Home Groups services.
+14. Show known file extensions.
+15. Change default Explorer view to "Computer"
+16. Disabled OneDrive.
+17. It removes some of the bloatware bundled with Windows 10 :
+    1. 3DBuilder
+    2. BingFinance
+    3. BingNews
+    4. BingSports
+    5. BingWeather
+    6. Getstarted
+    7. People
+    8. SkypeApp
+    9. WindowsMaps
+    10. WindowsPhone
+    11. WindowsSoundRecorder
+    12. AppConnector
+    13. Messaging
+    14. CommsPhone
+    15. CandyCrushSodaSaga
+    16. WindowsFeedbackHub
+    17. Wallet
+    18. GetHelp
+    19. MixedReality
+    20. Everything office related.
+    21. Everything xbox related.
+    22. Disables all settings in Privacy Experience.
+    23. Disable Remote Assistance
+    24. Disable Remote Desktop
+
+#### How to Use:
+1. Download/clone this repo.
+2. Right Click on start button & open Powershell(Admin)
+3. This step depends on where you have downloaded the script.
+    We will assume that you have downloaded this scipt in downloads.
+    ```
+    cd ..
+    cd C:\Users\<Your windows username>\Downloads\
+    cd .\Windows-Decrapify-main\Windows-Decrapify-main\
+    ```
+4. Type the following commands :
+    ```
+    Set-ExecutionPolicy Unrestricted
+    ```
+    ```
+    .\decrapify.ps1
+    ```
+*Note : Make sure to enable/disable the features you don't need by commenting/uncommenting them out.*
+#### Credits :
+[@Disassembler0]( https://github.com/Disassembler0 ).
+[Craft Computing]( https://www.youtube.com/channel/UCp3yVOm6A55nx65STpm3tXQ ).
 Windows Debloat Video URL : https://www.youtube.com/watch?v=PdKMiFKGQuc <br>
-Channel URL : https://www.youtube.com/channel/UCp3yVOm6A55nx65STpm3tXQ
