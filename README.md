@@ -1,6 +1,25 @@
 # Windows Decrapifier
 A simple powershell script to debloat Windows.
 
+### How to Use:
+1. Download/clone this repo.
+2. Right Click on start button & open Powershell(Admin)
+3. This step depends on where you have downloaded the script.
+    We will assume that you have downloaded this scipt in downloads.
+    ```
+    cd ..
+    cd C:\Users\<Your windows username>\Downloads\
+    cd .\Windows-Decrapifier-main\Windows-Decrapifier-main\
+    ```
+4. Type the following commands :
+    ```
+    Set-ExecutionPolicy Unrestricted
+    ```
+    ```
+    .\decrapify.ps1
+    ```
+*Note : Make sure to enable/disable the features you don't need by commenting/uncommenting them out.*
+
 ### What this script can do :
 1. Enable/Disable Telemetry
 2. Enable/Disable Wi-Fi Sense
@@ -97,24 +116,6 @@ By default this script has options enabled for a normal user.
 19. Disable Remote Assistance
 20. Disable Remote Desktop
 
-### How to Use:
-1. Download/clone this repo.
-2. Right Click on start button & open Powershell(Admin)
-3. This step depends on where you have downloaded the script.
-    We will assume that you have downloaded this scipt in downloads.
-    ```
-    cd ..
-    cd C:\Users\<Your windows username>\Downloads\
-    cd .\Windows-Decrapifier-main\Windows-Decrapifier-main\
-    ```
-4. Type the following commands :
-    ```
-    Set-ExecutionPolicy Unrestricted
-    ```
-    ```
-    .\decrapify.ps1
-    ```
-*Note : Make sure to enable/disable the features you don't need by commenting/uncommenting them out.*
 #### Credits :
 [@Disassembler0]( https://github.com/Disassembler0 ).
 [Craft Computing]( https://www.youtube.com/channel/UCp3yVOm6A55nx65STpm3tXQ ).
