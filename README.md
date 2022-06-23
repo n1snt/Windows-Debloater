@@ -8,7 +8,7 @@ A simple powershell script to debloat Windows.
     We will assume that you have downloaded this scipt in downloads.
     ```
     cd ..
-    cd C:\Users\<Your windows username>\Downloads\
+    cd C:\Users\<Your Windows username>\Downloads\
     cd .\Windows-Decrapifier-main\Windows-Decrapifier-main\
     ```
 4. Type the following commands :
@@ -74,13 +74,13 @@ A simple powershell script to debloat Windows.
 ### Defaults:
 By default this script has options enabled for a normal user.
 1. Telemetry is disabled.
-2. Wi-Fi sense is diasabled.
-3. SmartScreen Filter is diasabled.
+2. Wi-Fi sense is disabled.
+3. SmartScreen Filter is disabled.
 4. Bing Search diabled in Start Menu.
-5. Location Tracking is diasabled.
-6. Feedback is diasabled.
-7. Advertising ID is diasabled.
-8. Cortana is diasabled.
+5. Location Tracking is disabled.
+6. Feedback is disabled.
+7. Advertising ID is disabled.
+8. Cortana is disabled.
 9. Restricted Windows Update P2P only to local network.
 10. Removed AutoLogger file and restrict directory.
 11. Stopped and disabled Diagnostics Tracking Service.
@@ -109,8 +109,8 @@ By default this script has options enabled for a normal user.
     17. Wallet
     18. GetHelp
     19. MixedReality
-    20. Everything office related.
-    21. Everything xbox related.
+    20. Everything Office related.
+    21. Everything Xbox related.
     22. WindowsCamera
 18. Disables all settings in Privacy Experience.
 19. Disable Remote Assistance
