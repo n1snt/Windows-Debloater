@@ -477,6 +477,13 @@ Get-AppxPackage "Microsoft.XboxGameOverlay" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.XboxSpeechToTextOverlay" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.MixedReality.Portal" | Remove-AppxPackage
 Get-AppxPackage "Microsoft.XboxIdentityProvider" | Remove-AppPackage
+Get-AppxPackage "5A894077.McAfeeSecurity" | Remove-AppPackage
+Get-AppxPackage "Disney.37853FC22B2CE" | Remove-AppPackage
+Get-AppxPackage "Microsoft.GamingApp" | Remove-AppPackage
+Get-AppxPackage "Facebook.InstagramBeta" | Remove-AppPackage
+Get-AppxPackage "AdobeSystemsIncorporated.AdobeCreativeCloudExpress" | Remove-AppPackage
+Get-AppxPackage "AmazonVideo.PrimeVideo" | Remove-AppPackage
+Get-AppxPackage "BytedancePte.Ltd.TikTok" | Remove-AppPackage
 
 
 # Install default Microsoft applications
@@ -690,6 +697,7 @@ $apps = @(
     "Microsoft.Windows.ContentDeliveryManager"
     "Microsoft.Windows.PeopleExperienceHost"
     "Microsoft.XboxGameCallableUI"
+    "Microsoft.GamingApp"
 
     # Threshold 2 apps
     "Microsoft.CommsPhone"
@@ -758,6 +766,12 @@ $apps = @(
     "king.com.BubbleWitch3Saga"
     "king.com.CandyCrushSaga"
     "king.com.CandyCrushSodaSaga"
+    "5A894077.McAfeeSecurity"
+    "Disney.37853FC22B2CE"
+    "Facebook.InstagramBeta"
+    "AdobeSystemsIncorporated.AdobeCreativeCloudExpress"
+    "AmazonVideo.PrimeVideo"
+    "BytedancePte.Ltd.TikTok"
 
     # apps which cannot be removed using Remove-AppxPackage
     #"Microsoft.BioEnrollment"
