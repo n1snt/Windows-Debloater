@@ -1,4 +1,4 @@
-# Windows Decrapifier
+# Windows Debloater
 A simple powershell script to debloat Windows.
 
 ### How to Use:
@@ -9,14 +9,14 @@ A simple powershell script to debloat Windows.
     ```
     cd ..
     cd C:\Users\<Your Windows username>\Downloads\
-    cd .\Windows-Decrapifier-main\Windows-Decrapifier-main\
+    cd .\Windows-Debloater-main\Windows-Debloater-main\
     ```
 4. Type the following commands :
     ```
     Set-ExecutionPolicy Unrestricted
     ```
     ```
-    .\decrapify.ps1
+    .\debloat.ps1
     ```
 *Note : Make sure to enable/disable the features you don't need by commenting/uncommenting them out.*
 
